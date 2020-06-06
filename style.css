@@ -1,0 +1,222 @@
+nav
+{
+	display: inline-block;
+width: 90%;
+font-family: 'Acme', sans-serif;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Cabin', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Patrick Hand', cursive;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: -0px;
+  margin-bottom: 100%;  
+   padding: 50;   
+   overflow: auto; 
+   text-decoration: none; 
+    background-color:hsla(53, 0%, 21%, 0.8);float: middle; 
+    position: fixed;  width: 100%; top: 5px; 
+ 
+}
+
+
+nav input[type=text] {
+  float: center;
+  padding: 6px;
+  margin-top: 8px;
+ 
+
+  font-size: 17px;
+}
+body div.search-box{
+  margin: 0;
+  padding-left: 0;
+}
+.search-box{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.input-box{
+  border: none;
+  outline: none;
+  background: none;
+  float: left;
+  padding: 5px;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.4s all;
+  line-height: 30px;
+  width: 0px;
+}
+.btn
+{
+  color: #1abc9c;
+  float: right;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+.search-box:hover .input-box
+{
+  width: 240px;
+  padding: 0 6px;
+}
+.searching-box:hover .btn
+{
+  background-color: #fff;
+}
+body{
+  
+   background-image: url("image/cover2.jpg");
+background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: fixed;
+   width:100%;
+   background-size: 100%;
+   background-color: hsl(0, 1%, 32%);
+}
+
+
+div.nav2 ul {   margin-left: 5%;  width: 90%;
+  list-style-type: none;  margin-top: 42%;  position: sticky;  padding: 1px;   overflow: hidden;   background-color:#B22222; font-family: 'Cabin', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+ } 
+
+ 
+ a:link, a:visited {
+  
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+nav li a:hover, a:active {
+  background-color: #FA8072;
+}
+
+div.nav2 ul a:hover, a:active 
+{
+  background-color:  #CD5C5C;}
+   div.nav2 li{
+    word-spacing: 20%;font-family: 'Cabin', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+   padding: 10px; float: left; width: 12%;display: inline;margin-left:10px;margin-right: 10px;} 
+ 
+div.nav2 li a {     color: white;   text-align: center;   padding: 20px 16px;   text-decoration: none; }
+}
+
+nav ul
+{
+list-style-type: none;
+}
+nav li
+{
+display: inline-block;
+margin-right: 20px;
+margin-left: 0px;
+}
+nav a
+{
+font-size: 1.3em;
+color: #181818;
+padding-bottom: 3px;
+text-decoration: none;
+}
+nav a:hover
+{
+color: #760001;
+border-bottom: 3px solid #760001;
+}
+header h1
+{
+font: 15px pacifico, sans-serif;;
+font-size: 2.5em;
+font-weight: normal;
+font-style: oblique;
+}
+#logo, header h1
+{
+display: inline-block;
+margin-bottom: 0px;
+font-family: cursive;
+color: white;
+}
+header h2
+{
+font:italic bold 12px/30px Georgia, serif;;
+font-size: 1.1em;
+margin-top: 0px;
+font-weight: normal;
+margin-left: 15%;
+color: white;
+}
+div.gallery {
+  
+  border: 1px solid white ;
+  margin-left:10%;
+  margin-right: auto;
+float:none;
+  width: 35%;
+  overflow: auto;
+ display: inline-block;
+ align-items: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 80%;
+}
+
+div.desc {
+  color: white;
+  padding: 10px;
+  background-color: #B22222;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Metal Mania', cursive;
+}
+
+
+#foot {
+  background-color: #B22222;;
+ 
+  
+  display: block;
+ height: 50%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 315%;
+   padding: 2%;   
+   overflow: hidden; 
+   text-decoration: none; 
+   float: middle; 
+   position: absolute;  width: 100%; 
+   font-family: 'Cabin', sans-serif;
+ 
+   
+}
+html,body{
+  height: 100%;
+}
+*{
+  margin:0;
+  padding: 0;
+   box-sizing: border-box;
+}
+hr {
+  color: #DC143C;
+}
